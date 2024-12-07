@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: #FDFAD9;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.aldrin.salam.PrimaryController">
+    <children>
+        <TextField fx:id="usernameField" layoutX="226.0" layoutY="286.0" />
+        <Label layoutX="159.0" layoutY="336.0" text="Password:" />
+        <PasswordField fx:id="passwordField" layoutX="226.0" layoutY="332.0" />
+        <Label layoutX="157.0" layoutY="290.0" text="Username:" />
+        <Button layoutX="277.0" layoutY="404.0" onAction="#handleLogin" text="Login" />
+        <Button layoutX="277.0" layoutY="450.0" onAction="#handleRequestMembership" text="Request Membership" />
+        <ImageView fitHeight="247.0" fitWidth="316.0" layoutX="177.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Library-rafiki.png" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>

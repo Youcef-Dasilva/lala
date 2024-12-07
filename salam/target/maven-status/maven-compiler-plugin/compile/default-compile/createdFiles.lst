@@ -1,0 +1,15 @@
+com\aldrin\salam\SecondaryController.class
+com\aldrin\salam\UserController.class
+com\aldrin\salam\Book.class
+com\aldrin\salam\BookService.class
+com\aldrin\salam\Loan.class
+com\aldrin\salam\PrimaryController.class
+com\aldrin\salam\App.class
+com\aldrin\salam\AdminController.class
+com\aldrin\salam\BookController.class
+com\aldrin\salam\model\DemandesAdhesion.class
+module-info.class
+com\aldrin\salam\LoanController.class
+com\aldrin\salam\UserService.class
+com\aldrin\salam\LoanService.class
+com\aldrin\salam\Database.class
